@@ -1,0 +1,251 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Light and Dark Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="type.js" type="text/javascript"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>    
+  </head>
+  <body>
+    <header class="header" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" >
+        <nav class="mob_show" role="navigation">				
+          <div id="menuToggle">            	
+            <input type="checkbox" class="closeNavigation"/>
+              <span></span>
+              <span></span>
+              <span></span>
+          <ul id="menu">
+          <h2 class="logo">Portfolio</h2>
+          <ul class="logo_get">          
+            <li><a href="#About" class="scroll" data-id="aboutsec">About</a></li>
+            <li><a href="#Projects" class="scroll" data-id="projectssec">Projects</a></li>
+            <li><a href="#Services" class="scroll" data-id="servicessec">Services</a></li>
+            <li><a href="#Contact" class="scroll" data-id="contactsec">Contact</a></li>
+            <li><a href="#Contact" class="scroll" data-id="teamsec">Team</a></li>
+            </ul>
+          </ul>
+          </div>          
+      </nav>	
+      <nav class="dek_show">
+        <h2 class="logo">Portfo<span>lio</span></h2>
+        <ul>
+          <li><a href="#About" class="scroll" data-id="aboutsec">About</a></li>
+          <li><a href="#Projects" class="scroll" data-id="projectssec">Projects</a></li>
+          <li><a href="#Services" class="scroll" data-id="servicessec">Services</a></li>  
+          <li><a href="#Contact" class="scroll" data-id="contactsec">Contact</a></li>
+          <li><a href="#Contact" class="scroll" data-id="teamsec">Team</a></li>
+        </ul>
+        <div class="switch">
+          <div class="flicker"></div>
+          <div class="moon"></div>
+        </div>
+      </nav>
+  </header>
+
+    <section class="main banner_main" >
+      <div class="main-text" data-aos="fade-down">
+        <h1>We are <span class="typed"></span></h1>      
+        <p>Welcome to my Page!</p>
+        <br/>
+        <p>I am a Software Developer and Content Creator on YouTube. Born in Poland but raised in the UAE and Singapore.</p>
+        <br/>
+        <a href="#" class="scroll" data-id="contactsec">contact me ></a>
+      </div>
+      
+      <div class="hero-image">
+        <img src="images/boy-comp.png">
+      </div>
+    </section>
+    
+    <!-- Work Done Section -->
+    <section class="our-work" id="projectssec">
+      <div class="work-section" data-aos="fade-down-right">
+        <h2>Work Done</h2>
+        <p>We Develop</p>
+      </div>  
+    </section>
+    <section class="sub-section work-sec" data-section="work-done" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">      
+      <div class="square" id="revenoo" data-aos="fade-down-right">
+        <h2>Payment Dashboard</h2>
+        <p>A B2B Payment Tracker</p>
+        <br/>
+        <a href="https://github.com/kubowania/Project-04">check it out ></a>
+      </div>
+      <div class="square" id="burgerrator" data-aos="fade-down-left">
+        <h2>Burger App</h2>
+        <p>App for Rating Burgers</p>
+        <br/>
+        <a href="https://github.com/kubowania">check it out ></a>
+      </div>
+      <div class="square" id="news" data-aos="fade-right" data-aos="fade-down-right">
+        <h2>News App</h2>
+        <p>An App To Track News</p>
+        <br/>
+        <a href="https://github.com/kubowania">check it out ></a>
+      </div>
+      <div class="square" id="dates" data-aos="fade-down-left">
+        <h2>Dating App</h2>
+        <p>An App For Dates</p>
+        <br/>
+        <a href="https://github.com/kubowania">check it out ></a>
+      </div>
+    </section>
+    <!-- Service Provided -->
+    <section class="sub-section about-main serivce-main" id="servicessec">
+      <div class="square" data-aos="fade">
+        <h2>What We Do</Doc></h2>
+        <p>Services We Provide.</p> 
+        <div class="main-about about-slider">
+          <div class="item-1 wrp-flex" data-aos="fade-down">
+            <div class="animate-slider">
+            <div class="wrp-img"> 
+                <img src="images/ecomerce.jfif" alt="about-1"> 
+            </div>
+            <div class="wrp-content">
+              <h1>E-commerce Website</h1>              
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+              </p>
+            </div>
+          </div>
+          </div>
+          <div class="item-2 wrp-flex" data-aos="fade-down">
+            <div class="animate-slider">
+              <div class="wrp-img"> 
+                  <img src="images/digital.jfif" alt="about-1"> 
+              </div>
+              <div class="wrp-content">
+                <h1>Digital Marketing</h1>              
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="item-2 wrp-flex" id="website" data-aos="fade-down">
+            <div class="animate-slider">
+              <div class="wrp-img"> 
+                  <img src="images/web-developer.jpg" alt="about-1"> 
+              </div>
+              <div class="wrp-content">
+                <h1>Website</h1>
+                <p>
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                </p>              
+              </div>
+            </div>
+          </div>          
+          </div>                                         
+        </div>               
+      </div>                  
+    </section>
+    <!-- About Us -->
+    <section id="aboutsec" class="sub-section about-main get_about" data-section="about section" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+      <div class="square">
+        <h2>About Us</h2>
+        <p>Let you know about us</p> 
+        <div class="main-about about-slider">
+          <div class="item-1 wrp-flex">
+            <div class="animate-slider">            
+            <div class="wrp-content">
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+              </p>              
+            </div>
+          </div>
+          </div>                              
+          </div>                                         
+        </div>               
+      </div>                  
+    </section>
+    <!-- Team Section -->
+    <section class="sub-section about-main" data-section="about section" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500" id="teamsec">
+      <div class="square">
+        <h2>Our Team</h2>
+        <p>We are a Team Of Technologists, Designers, And Creators <br> who are focused on your company's growth.</p> 
+        <div class="main-about about-slider">
+          <div class="item-1 wrp-flex">
+            <div class="animate-slider">
+            <div class="wrp-img" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500"> 
+                <img src="images/boy1.png" alt="about-1"> 
+            </div>
+            <div class="wrp-content">
+              <h1>Ania Kubow</h1>              
+            </div>
+          </div>
+          </div>
+          <div class="item-2 wrp-flex" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+            <div class="animate-slider">
+              <div class="wrp-img" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500"> 
+                  <img src="images/boy2.png" alt="about-1"> 
+              </div>
+              <div class="wrp-content">
+                <h1>Ania Kubow</h1>              
+              </div>
+            </div>
+          </div>
+          <div class="item-2 wrp-flex">
+            <div class="animate-slider">
+              <div class="wrp-img" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500"> 
+                  <img src="images/boy3.png" alt="about-1"> 
+              </div>
+              <div class="wrp-content">
+                <h1>Ania Kubow</h1>              
+              </div>
+            </div>
+          </div>
+          <div class="item-3 wrp-flex">
+            <div class="animate-slider">
+            <div class="wrp-img" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500"> 
+                <img src="images/boy1.png" alt="about-1"> 
+            </div>
+            <div class="wrp-content">
+              <h1>Ania Kubow</h1>              
+            </div>
+          </div>
+          </div>                                         
+        </div>               
+      </div>                  
+    </section>
+    <!--Contact section  start-->
+	<section class="about contact-me"  id="contactsec">
+		<div id="about">			
+        <h2>Our Newsletter</h2>
+        <form action="#">
+          <input type="https://www.google.com/" placeholder="Please  Enter You Email" />
+          <input type="submit" value="Subscribe" />
+        </form>      
+      </div>
+		</div>
+	</section>
+    
+    <footer id="footer">
+      <h2>Contact Us</h2>
+      <div class="email-details">
+        <p>Contact No. : +91012587965</p>
+        <p>Email: kubowania@gmail.com</p>
+      </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
