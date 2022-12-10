@@ -47,9 +47,10 @@ $(function(){
 	$(".scroll").click(function(e) {
 		e.preventDefault()
 		const sectionToScrool = $(this).attr('data-id')
+		// console.log(sectionToScrool);
 		// $('.mob_show').hide()
-		$(this).prop('checked', false);
-		$('.closeNavigation').prop('checked', false);
+		// $(this).prop('checked', false);
+		// $('.closeNavigation').prop('checked', false);
 		$('html, body').animate({
 			scrollTop: $("#"+sectionToScrool).offset().top
 		}, 2000);

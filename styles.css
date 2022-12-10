@@ -135,28 +135,28 @@ box-shadow: 10px 10px 10px 10px #000;
 }
 
 #revenoo {
-  background-image: url("images/revenoo-app.png");
+  background-image: url("images/Golfo-Radio.png");
   background-size: cover;
   margin-bottom: 20px;
   box-shadow: 0px 0px 5px 5px #dfdbdb;
 }
 
 #burgerrator {
-  background-image: url("images/burgerrator.png");
+  background-image: url("images/Power-Up.png");
   background-size: cover;
   margin-bottom: 20px;
   box-shadow: 0px 0px 5px 5px #dfdbdb;
 }
 
 #news {
-  background-image: url("images/news-app.png");
+  background-image: url("images/work7.jpeg");
   background-size: cover;
   margin-bottom: 20px;
   box-shadow: 0px 0px 5px 5px #dfdbdb;
 }
 
 #dates {
-  background-image: url("images/dates-app.png");
+  background-image: url("images/DELINEATION-SCHÉDIO.png");
   background-size: cover;
   margin-bottom: 20px;
   box-shadow: 0px 0px 5px 5px #dfdbdb;
@@ -341,7 +341,7 @@ footer {
 }
 .animate-slider .wrp-img img{
   width: 100%;  
-  height: 600%;
+  height: 300px;
 }
 .serivce-main .wrp-img img{
   border-bottom:1px solid black;
